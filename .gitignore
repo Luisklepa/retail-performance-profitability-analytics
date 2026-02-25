@@ -1,0 +1,73 @@
+# --- OS: Windows ---
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# --- Power BI / Analysis Services local artifacts ---
+*.pbix
+*.pbix.bak
+*.pbi*
+**/AnalysisServicesWorkspaces/
+**/.pbi/
+
+# --- Data exports (ignored by default) ---
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.jsonl
+
+# Allow exports if explicitly placed in docs/ or assets/
+!docs/**/*.csv
+!docs/**/*.tsv
+!docs/**/*.xlsx
+!docs/**/*.xls
+!docs/**/*.parquet
+!docs/**/*.jsonl
+!assets/**/*.csv
+!assets/**/*.tsv
+!assets/**/*.xlsx
+!assets/**/*.xls
+!assets/**/*.parquet
+!assets/**/*.jsonl
+
+# --- Python (just in case) ---
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+.cursor/
+*.code-workspace
+
+# --- Logs ---
+*.log
+logs/
+
+# NOTE:
+# - screenshots are intentionally tracked (do not ignore /screenshots/*.png)
