@@ -17,7 +17,7 @@ Built on a star schema with a small, reusable DAX measure layer to keep KPIs con
 - [Interview talk track](docs/INTERVIEW_TALK_TRACK.md) (60–90s talk track + likely questions)
 
 ## Repository Structure
-- `screenshots/` — report page previews (3 PNGs)
+- `screenshots/` — report page previews (PNG exports)
 - `docs/` — project notes and interview talk track
 - `sql/` — placeholder for future SQL exercises
 - `assets/` — optional supporting files (kept empty by default)
@@ -74,6 +74,11 @@ Customer count and repeat behavior (793 customers, 781 repeat customers; ~98% re
 Scatter chart for product-level discount impact: **x = Weighted Discount**, **y = Total Profit**, **size = Total Revenue**, grouped by **Product**.
 
 ![Discount Analysis](screenshots/discount_analysis.png)
+
+### Key Insights
+Executive summary page that consolidates the main takeaways into action-oriented statements.
+
+![Key Insights](screenshots/insights.png)
 
 ## Key Insights
 - **Total Revenue ≈ $2.3M**, **Total Profit ≈ $286.4K**, **Margin ≈ 12.47%**.
