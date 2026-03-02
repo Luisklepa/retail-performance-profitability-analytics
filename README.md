@@ -5,6 +5,14 @@ Technical Data Analyst portfolio project (Power BI • DAX • dimensional model
 Power BI report focused on retail profitability, repeat customer behavior, and discount effectiveness.
 Built on a star schema with a small, reusable DAX measure layer to keep KPIs consistent across pages.
 
+## Target roles
+
+This project is designed as a **portfolio case for Data Analyst / BI Analyst roles**, because it demonstrates:
+
+- **Dimensional modeling (star schema)** applied to a realistic retail scenario.
+- Design and calculation of **business KPIs** (Revenue, Profit, Margin %, customer recurrence, discount effectiveness).
+- An **executive Power BI report** focused on explaining profitability drivers and customer behavior.
+
 **At a glance (from the report)**
 - **Total Revenue**: ≈ **$2.3M**
 - **Total Profit**: ≈ **$286.4K**
@@ -97,7 +105,28 @@ Executive summary page that consolidates the main takeaways into action-oriented
 - **DAX** (measures for KPIs, recurrence, discount analysis)
 - **Power Query** (data shaping, as needed)
 - **Dimensional modeling** (star schema)
+ 
+## Skills demonstrated
+- **Dimensional modeling (star schema)** for retail analytics.
+- **DAX measure design** for profitability, customer behavior and discounts.
+- **Executive storytelling**: KPIs and visuals structured for non-technical stakeholders.
+- Ability to **translate business questions into KPIs and report pages**.
+
+## Relevance for Data / BI roles
+- Fits typical responsibilities of **Data Analyst / BI Analyst** roles: build star schemas, define KPIs and create dashboards.
+- Shows ability to work end-to-end: from raw dataset → data model → measures → report → **business insights**.
+- Provides a concrete example to discuss in interviews (trade-offs, assumptions, limitations).
+
+## How I present it in 30–60 seconds (interviews)
+
+“This is a retail case where I built a star schema and a small reusable DAX measure layer. With that, I analyze **profitability, customer repeat behavior and discounts**, and end up with concrete recommendations like **limiting high discounts (>40%)** and **focusing on customers/segments with better margin and recurrence**.”
 
 ## Notes / Limitations
-- Forecast visuals rely on **Power BI native forecasting**.
+- Forecast visuals rely on **Power BI native forecasting** (not a custom statistical model).
 - If the underlying dataset is **synthetic** (common for portfolio work), the focus is on analytics approach and measure design rather than real operational performance.
+- Does not include real-time refresh or row-level security; those would be next steps in a production BI setup.
+
+## Next steps
+- Add a **SQL layer** in the `sql/` folder to show how the star schema could be built from raw tables.
+- Experiment with **scenario analysis** pages (e.g., margin impact of changing discount policies).
+- Implement **RLS and deployment pipeline** if used in a multi-user, production-like environment.
