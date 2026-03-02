@@ -1,9 +1,14 @@
 # Retail Performance & Profitability Analytics
 Technical Data Analyst portfolio project (Power BI • DAX • dimensional modeling).
 
+_Proyecto de portafolio para Analista de Datos enfocado en rentabilidad retail, BI (Power BI) y modelado dimensional._
+
 ## Project Overview
 Power BI report focused on retail profitability, repeat customer behavior, and discount effectiveness.
 Built on a star schema with a small, reusable DAX measure layer to keep KPIs consistent across pages.
+
+### (ES) Descripción general
+Informe de Power BI centrado en **rentabilidad retail**, comportamiento de clientes recurrentes y efectividad de descuentos, construido sobre un **modelo estrella** con una capa pequeña de medidas DAX reutilizables para mantener KPIs consistentes en todas las páginas.
 
 ## Target roles
 
